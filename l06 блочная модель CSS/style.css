@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-color: #f6f6f6;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 1009.37px;
+    height: 502.5px;
+    background-color: #fff;
+    border: 1px  #e5e5e5 solid;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.img, .description {
+    display: inline-block;
+    width: 49.5%;
+    height: 100%;
+}
+
+.img {
+    background: url(img/main-image.jpg) no-repeat center;
+}
+
+.description {
+    position: absolute;
+    color: black;
+    padding-top: 94px;
+    padding-right: 80px;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 22.5px;
+}
+
+.headphones-description {
+    margin-top: 25px;
+}
+
+.price-title {
+    margin-top: 40px;
+}
+
+.headphones-description, .price-title {
+    font-weight: normal;
+    font-size: 15px;
+}
+
+.price {
+    margin-top: 18px;
+    font-weight: normal;
+    font-size: 30px;
+}
+
+button {
+    margin-top: 40px;
+    background-color: #ec744a;
+    color: white;
+    font-weight: normal;
+    font-size: 18.75px;
+    width: 251.25px;
+    height: 49.37px;
+    border: none;
+}

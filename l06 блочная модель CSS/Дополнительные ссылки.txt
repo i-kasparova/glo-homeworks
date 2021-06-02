@@ -1,0 +1,9 @@
+﻿
+Изучаем CSS-позиционирование за 10 шагов
+dreamhelg.ru/2011/02/css-position-in-10-steps
+
+How to Center in CSS
+howtocenterincss.com
+
+Позиционирование содержимого
+webref.ru/layout/learn-html-css
