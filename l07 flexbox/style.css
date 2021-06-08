@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+.container {
+    position: relative;
+}
+
+.container:nth-child(even)::before {
+    display: block;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.2);
+    position: absolute;
+}
+
+.content {
+    width: 1140px;
+    margin: 0 auto;
+    background: repeating-linear-gradient(90deg,
+    #fff6f3,
+    #fff6f3 60px,
+    #fff 60px,
+    #fff 90px
+    );
+    font-family: Tahoma, Verdana, sans-serif;
+}
+
+.book-box {
+    height: 100vh;
+    max-height: 700px;
+    display: flex;
+    justify-content: center;
+    padding: 74px 10px 0 10px;
+}
+
+.book-image, .book-details {
+    height: 630px;
+    flex-basis: 404px;
+}
+
+.book-image {
+    background-image: url(img/book.png);
+    background-repeat: no-repeat;
+    background-size: 80%;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 48px;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.book-details {
+    flex-grow: 1;
+    padding: 50px 110px 0 75px;
+}
+
+.book-author {
+    margin-top: 14px;
+    font-weight: normal;
+    font-size: 30px;
+}
+
+.book-description {
+    margin-top: 34px;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+.book-price {
+    margin-top: 42px;
+    font-weight: normal;
+    font-size: 48px;
+}
+
+.book-buttons {
+    display: flex;
+    justify-content: space-between;
+    height: 67px;
+    margin-top: 42px;
+    width: 100%;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.button-buy, .button-moreinfo {
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.button-buy {
+    color: white;
+    background-color: #f15921;
+    border: none;
+    width: 175px;
+}
+
+.button-moreinfo {
+    color: #f15921;
+    border: 2px  #f15921 solid;
+    background-color: transparent;
+    width: 287px;
+}
+
+.ship-box {
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.ship-title, .bought-title {
+    text-align: center;
+    padding-top: 89px;
+}
+
+.ship-item {
+    width: 25%;
+}
+
+.ship-image {
+    width: 100%;
+    height: 50px;
+    margin-top: 80px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.free-ship-image {
+    background-image: url(img/shopping-cart.png);
+}
+
+.pay-online-image {
+    background-image: url(img/credit-card.png);
+}
+
+.delivery-image {
+    background-image: url(img/shipped.png);
+}
+
+.russianpost-image {
+    background-image: url(img/mailbox.png);
+}
+
+.ship-description {
+    margin-top: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    line-height: 22px;
+}
+
+.bought-this-book {
+    width: 100%;
+    height: calc(100vh - 124px);
+    max-height: 700px;
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.guy-image {
+    width: 25%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.guy-1 {
+    background-image: url(img/guy-1.png);
+}
+.guy-2 {
+    background-image: url(img/guy-2.png);
+}
+.guy-3 {
+    background-image: url(img/guy-3.png);
+}
+.guy-4 {
+    background-image: url(img/guy-4.png);
+}
+.guy-5 {
+    background-image: url(img/guy-5.png);
+}
+.guy-6 {
+    background-image: url(img/guy-6.png);
+}
+.guy-7 {
+    background-image: url(img/guy-7.png);
+}
+.guy-8 {
+    background-image: url(img/guy-8.png);
+}
