@@ -1,0 +1,5 @@
+﻿
+
+Файл reset.css - https://gist.github.com/karbassi/5256094
+
+3 простых и быстрых техники CSS для обрезки картинок - http://2web-master.ru/3-easy-and-fast-css-techniques-for-crop-image.html
