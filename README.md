@@ -3,4 +3,4 @@
 
 <a href="https://i-kasparova.github.io/glo-homeworks/l07%20flexbox/" target="_blank">Домашка по уроку 7 (Flexbox)</a>
 
-<a href="https://github.com/i-kasparova/glo-homeworks/tree/main/less08" target="_blank">Домашка по уроку 8</a>
+<a href="https://github.com/i-kasparova/glo-homeworks/tree/main/less08/" target="_blank">Домашка по уроку 8</a>
